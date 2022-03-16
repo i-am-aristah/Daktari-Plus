@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#2196F3</color>
+    <color name="purple_700">#2196F3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="milky">#DCD9D9</color>
+
+    <color name="shimmer_placeholder">#dddddd</color>
+
+    <color name="pending">#FFD600</color>
+    <color name="accepted">#0CE867</color>
+    <color name="notAccepted">#C64242</color>
+
+    <color name="colorPrimary">#222431</color>
+
+    <color name="profile_clr">#2E86C1</color>
+
+    <color name="my_profile">#3498DB</color>
+</resources>

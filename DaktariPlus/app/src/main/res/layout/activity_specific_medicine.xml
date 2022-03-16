@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SpecificMedicineActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/purple_700">
+        <ImageView
+            android:id="@+id/img_back_speci_med"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="4dp"
+            android:src="@drawable/ic_back"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginEnd="48dp"
+            android:text="Specific Medicine"/>
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp">
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/med_search_view"
+            android:layout_width="match_parent"
+            android:background="@color/milky"
+            android:padding="5dp"
+            android:layout_height="40dp"/>
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcv_spec_med"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+
+            tools:listitem="@layout/specific_medicine_row_item" />
+
+        <ImageView
+            android:id="@+id/img_not_found"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_not_found"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/txt_no_rec_found"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_not_found"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Medicine Currently Not Available"
+            android:textColor="@color/design_default_color_secondary"
+            android:textSize="30sp"
+            android:visibility="gone" />
+
+</RelativeLayout>
+</LinearLayout>

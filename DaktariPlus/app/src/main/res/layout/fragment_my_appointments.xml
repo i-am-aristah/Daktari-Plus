@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MyAppointmentsFragment">
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_my_appointments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:layout_marginBottom="60dp"
+        tools:listitem="@layout/my_appointments_row_item"/>
+    <ImageView
+        android:id="@+id/img_no_available_appointments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:src="@drawable/no_record"/>
+
+
+</FrameLayout>

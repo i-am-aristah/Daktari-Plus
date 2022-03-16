@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    app:cardElevation="2dp"
+    android:layout_marginBottom="10dp"
+    android:paddingBottom="5dp"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_med_pic_med"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/med_bg"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medicine name : "
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12dp"/>
+            <TextView
+                android:id="@+id/txt_med_name_med"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Medicine name"
+                android:textColor="#C51162"
+                android:textStyle="bold"
+                android:textSize="14dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pharmacy Name : "
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12dp"/>
+        <TextView
+            android:id="@+id/txt_pharm_name_med"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pharmacy name"
+            android:textColor="@color/design_default_color_secondary"
+            android:textSize="14dp"/>
+        </LinearLayout>
+
+
+                <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pharmacy Town : "
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="12dp"/>
+        <TextView
+            android:id="@+id/txt_coun_phar_med"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pharmacy County"
+            android:textColor="@color/design_default_color_secondary"
+            android:textSize="14dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+                    >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pharmacy Location : "
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+        <TextView
+            android:id="@+id/txt_phar_area_med"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pharmacy Area"
+
+            android:textColor="@color/design_default_color_secondary"
+            android:textSize="16dp"/>
+                </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

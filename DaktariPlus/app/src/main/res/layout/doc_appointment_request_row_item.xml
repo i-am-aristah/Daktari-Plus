@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cv_a_r_h"
+    android:layout_marginBottom="5dp"
+
+    app:cardElevation="3dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:fontFamily="cursive"
+            android:textColor="@color/colorPrimary"
+            android:text="Patients name:"/>
+        <TextView
+            android:id="@+id/txt_doc_appo_patient_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/design_default_color_secondary"
+            android:text="John Doe"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:fontFamily="cursive"
+            android:textColor="@color/colorPrimary"
+            android:text="Medical Condition:"/>
+        <TextView
+            android:id="@+id/txt_doc_appo_patient_med_cond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/design_default_color_secondary"
+            android:text="Dental"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:fontFamily="cursive"
+            android:textColor="@color/colorPrimary"
+            android:text="Appointment Time:"/>
+        <TextView
+            android:id="@+id/txt_doc_appo_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/design_default_color_secondary"
+            android:text="Patients name:"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_appo_accept"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="Accept"
+            android:textAllCaps="false"
+            android:layout_margin="4dp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btn_appo_reject"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="Reject"
+            android:textAllCaps="false"
+            android:layout_margin="4dp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btn_appo_lapsed"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="Lapsed"
+            android:textAllCaps="false"
+            android:layout_margin="4dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

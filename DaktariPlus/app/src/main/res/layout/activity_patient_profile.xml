@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView tools:context=".PatientProfileActivity"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <RelativeLayout android:layout_height="280dp"
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:background="@color/profile_clr">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:cardCornerRadius="60dp"
+                android:layout_centerVertical="true">
+                <ImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="1dp"
+                    android:src="@drawable/userprofile1" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/full_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/cv"
+                android:includeFontPadding="false"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/full_name"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/cv"
+                android:includeFontPadding="false"
+                android:text="patient"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+        </RelativeLayout>
+
+        <LinearLayout android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="20dp">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Full Name"
+                android:layout_marginBottom="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtx_full_name"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="Julius Dora"
+                    android:drawablePadding="20dp"
+                    android:drawableLeft="@drawable/username"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Email"
+                android:layout_marginBottom="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtx_full_email"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="jmk@gmail.com"
+                    android:drawablePadding="20dp"
+                    android:drawableLeft="@drawable/email"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Phone"
+                android:layout_marginBottom="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtx_full_phone"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="+254"
+                    android:drawablePadding="20dp"
+                    android:drawableLeft="@drawable/phone"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="County"
+                android:layout_marginBottom="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtx_full_county"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="Kisumu"
+                    android:drawablePadding="20dp"
+                    android:drawableLeft="@drawable/county"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Area"
+                android:layout_marginBottom="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtx_full_area"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="maseno"
+                    android:drawablePadding="20dp"
+                    android:drawableLeft="@drawable/area"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_udate_profile"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@color/profile_clr"
+                android:text="update"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

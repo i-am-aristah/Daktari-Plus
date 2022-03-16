@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardMaxElevation="20dp"
+    android:layout_marginBottom="8dp">
+<LinearLayout
+android:layout_width="match_parent"
+android:orientation="vertical"
+    android:layout_marginBottom="8dp"
+    android:layout_margin="8dp"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:fontFamily="cursive"
+            android:textColor="@color/colorPrimary"
+            android:text="Appointment Id:"/>
+        <TextView
+            android:id="@+id/txt_doc_appo_patient_his_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/design_default_color_secondary"
+            android:text="John Doe"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:fontFamily="cursive"
+            android:textColor="@color/colorPrimary"
+            android:text="Appointment Time:"/>
+        <TextView
+            android:id="@+id/txt_doc_appo_patient_his_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/design_default_color_secondary"
+            android:text="10:00-10:30"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="cursive"
+            android:text="Appointment Status:"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            app:cardElevation="10dp"
+
+            app:cardCornerRadius="10dp">
+        <TextView
+            android:id="@+id/txt_doc_appo_patient_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:background="#8965BA"
+            android:textColor="@color/design_default_color_secondary"
+            android:text="Accepted"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    tools:context=".activities.RegisterActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:src="@drawable/docrec"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="#00B8D4"
+        android:textStyle="bold"
+        android:text="Join Us"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="textAutoComplete"
+        android:textColorHint="#07A2BA"
+        android:id="@+id/edttxt_reg_usename"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:backgroundTint="#562196F3"
+        android:drawableStart="@drawable/icon_person"
+        android:textSize="18sp"
+        android:background="@android:drawable/editbox_background"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/icon_email"
+        android:id="@+id/edttxt_reg_email"
+        android:textColorHint="#07A2BA"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:backgroundTint="#5686C3F3"
+        android:background="@android:drawable/editbox_background"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/edttxt_reg_password"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/icon_lock"
+        android:textColorHint="#07A2BA"
+        android:textSize="18sp"
+        android:backgroundTint="#5686C3F3"
+        android:background="@android:drawable/editbox_background"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="confirm Password"
+        android:id="@+id/edttxt_reg_confirmpassword"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="5dp"
+        android:textColorHint="#07A2BA"
+        android:drawableLeft="@drawable/icon_lock"
+        android:textSize="18sp"
+        android:backgroundTint="#5686C3F3"
+        android:background="@android:drawable/editbox_background"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Sign  Up"
+        android:id="@+id/btn_reg_signup"/>
+    <TextView
+        android:id="@+id/txtV_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="#00B8D4"
+        android:textStyle="bold"
+        android:text="Already a member? Sign In"/>
+
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>
