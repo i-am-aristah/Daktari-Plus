@@ -36,7 +36,3 @@ Google/mail auth login integrated
 ![alt text](../main/screenshots/search_medicine_about_us.png)
 
 
-
-# Contribute
-You can contribute to food_delivery_app by beta testing or submitting code. See the contribution wiki page for more info.
-License
