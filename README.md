@@ -17,6 +17,7 @@ Google/mail auth login integrated
 ------
 ![alt text](https://github.com/Aristah254/Daktari-Plus/tree/main/screenshots/login_signup.png?raw=true)
 ![alt text](https://github.com/Aristah254/Daktari-Plus/tree/main/login_signup.png?raw=true)
+![alt text](https://github.com/Aristah254/Daktari-Plus/tree/main/screenshots/login_signup.png)
 
 # Profile Screen
 ------
