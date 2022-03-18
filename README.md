@@ -15,7 +15,7 @@ Google/mail auth login integrated
 
 # Home Screen & Loading Screen
 ------
-![alt text](https://https://github.com/Aristah254/Daktari-Plus/tree/main/screenshots/login_signup.png?raw=true)
+![alt text](https://github.com/Aristah254/Daktari-Plus/tree/main/screenshots/login_signup.png?raw=true)
 
 # Profile Screen
 ------
