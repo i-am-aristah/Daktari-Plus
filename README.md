@@ -31,7 +31,7 @@ Google/mail auth login integrated
 ------
 ![alt text](../main/screenshots/med_rec_appointment_history.png)
 
-## Search Meicine and About Us Screen
+## Search Medicine and About Us Screen
 ------
 ![alt text](../main/screenshots/search_medicine_about_us.png)
 
